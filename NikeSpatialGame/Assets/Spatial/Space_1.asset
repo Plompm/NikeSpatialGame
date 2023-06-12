@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Space_1
   m_EditorClassIdentifier: 
   version: 0
-  sku: 
-  packageName: Nike Spatial Game
-  thumbnail: {fileID: 2800000, guid: 22e55a9bdac0fc34f8e704fb85593cf0, type: 3}
+  sku: 6486ab61ed2fcaaa9d6072a4
+  packageName: WhiteBoxVersion
+  thumbnail: {fileID: 2800000, guid: ec6e61a8993a64290991cfc322ec43ea, type: 3}
   savedProjectSettings: {fileID: 11400000, guid: 5d9ccce9614f46b459bb364338fe0320,
     type: 2}
-  worldID: 
+  worldID: i6JxlAVmagVgGr5XbdQW-
   scene: {fileID: 102900000, guid: 5a4e4d605920f4afdbe35a0942b30555, type: 3}
