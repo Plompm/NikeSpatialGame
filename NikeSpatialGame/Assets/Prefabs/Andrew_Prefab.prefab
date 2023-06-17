@@ -3540,7 +3540,7 @@ GameObject:
   - component: {fileID: 7760101210732984518}
   - component: {fileID: 7551912465984619876}
   - component: {fileID: 8343818813612032060}
-  - component: {fileID: 7175029526341053654}
+  - component: {fileID: 452935129140940579}
   m_Layer: 0
   m_Name: PinkGiannis
   m_TagString: Untagged
@@ -3613,8 +3613,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7175029526341053654
-MeshCollider:
+--- !u!65 &452935129140940579
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3623,10 +3623,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5084446622711145129, guid: 7f7e9030091eeaa4781dbbc4df957268, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.3019379, y: 0.12592073, z: 0.14161333}
+  m_Center: {x: 0.02753359, y: -0.0060481206, z: 0.07213093}
 --- !u!1 &2038627717603196643
 GameObject:
   m_ObjectHideFlags: 0
@@ -4164,7 +4163,7 @@ GameObject:
   - component: {fileID: 2063174659604787054}
   - component: {fileID: 6003900055934573486}
   - component: {fileID: 5890251039410873186}
-  - component: {fileID: 3890481617187463006}
+  - component: {fileID: 6314434680499447733}
   m_Layer: 0
   m_Name: WornAirRyder
   m_TagString: Untagged
@@ -4237,8 +4236,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3890481617187463006
-MeshCollider:
+--- !u!65 &6314434680499447733
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4247,10 +4246,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3750584261325465951, guid: c977042ce3b3cf342a33629db9f5e7cb, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.09239219, y: 0.034991037, z: 0.033747453}
+  m_Center: {x: 0.011314785, y: 0.017516853, z: -0.000042671338}
 --- !u!1 &2762025821433598256
 GameObject:
   m_ObjectHideFlags: 0
@@ -5045,7 +5043,7 @@ GameObject:
   - component: {fileID: 7312223580965872222}
   - component: {fileID: 5100366653269686059}
   - component: {fileID: 1808109655019368899}
-  - component: {fileID: 1964593672323910773}
+  - component: {fileID: 5413119187724445905}
   m_Layer: 0
   m_Name: NikeSoccerBall
   m_TagString: Untagged
@@ -5118,8 +5116,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1964593672323910773
-MeshCollider:
+--- !u!135 &5413119187724445905
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5128,10 +5126,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3853177367306879572, guid: 7f6fa6d8abce42740a87f314b3be1e4a, type: 3}
+  serializedVersion: 2
+  m_Radius: 2.423282
+  m_Center: {x: 1.2430945e-11, y: 0.000007629384, z: 0.00041711328}
 --- !u!1 &4234654236062782939
 GameObject:
   m_ObjectHideFlags: 0
@@ -5698,7 +5695,7 @@ GameObject:
   - component: {fileID: 3522509463807210841}
   - component: {fileID: 6547228500089544036}
   - component: {fileID: 3724211469924131608}
-  - component: {fileID: 542082187947762702}
+  - component: {fileID: 833250382865778909}
   m_Layer: 0
   m_Name: ZoomPegasus
   m_TagString: Untagged
@@ -5771,8 +5768,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &542082187947762702
-MeshCollider:
+--- !u!65 &833250382865778909
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5781,10 +5778,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -727909577512230820, guid: 9328435347cf17e4290f0df2de56d1f2, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.232821, y: 1.4453906, z: 1.2072538}
+  m_Center: {x: -0.024662865, y: 0.11735767, z: 0.095261075}
 --- !u!1 &4775719560592126606
 GameObject:
   m_ObjectHideFlags: 0
@@ -6158,7 +6154,7 @@ GameObject:
   - component: {fileID: 4503638080037953534}
   - component: {fileID: 8196957343344614826}
   - component: {fileID: 1378970109738938837}
-  - component: {fileID: 5093462804348999666}
+  - component: {fileID: 6971701151767837548}
   m_Layer: 0
   m_Name: TennisShoe_Base
   m_TagString: Untagged
@@ -6231,8 +6227,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5093462804348999666
-MeshCollider:
+--- !u!65 &6971701151767837548
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6241,10 +6237,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3590876211151886794, guid: cf9d726b9e4e8474d9a1523b5f3a739f, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.035272982, y: 0.03363132, z: 0.08797869}
+  m_Center: {x: -0.035039045, y: 0.018428357, z: 0.002073251}
 --- !u!1 &5480211733531043809
 GameObject:
   m_ObjectHideFlags: 0
@@ -6256,7 +6251,7 @@ GameObject:
   - component: {fileID: 5011319939770460403}
   - component: {fileID: 4969757041091955023}
   - component: {fileID: 8435271813713857937}
-  - component: {fileID: 5931433961673520067}
+  - component: {fileID: 1182080405835572697}
   m_Layer: 0
   m_Name: MercurialSuperflyV_shoe
   m_TagString: Untagged
@@ -6329,8 +6324,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5931433961673520067
-MeshCollider:
+--- !u!65 &1182080405835572697
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6339,10 +6334,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3659640331749375725, guid: bf7c420a34554e24b9adecea3160cc3d, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.6755376, y: 2.0770795, z: 1.2068155}
+  m_Center: {x: 0.0010063053, y: 0.00000005960464, z: 0.0007300676}
 --- !u!1 &5550267859066331109
 GameObject:
   m_ObjectHideFlags: 0
@@ -7260,7 +7254,7 @@ GameObject:
   - component: {fileID: 9039189886591350322}
   - component: {fileID: 4013349622293791197}
   - component: {fileID: 4112776534395903131}
-  - component: {fileID: 4955889135463222152}
+  - component: {fileID: 4564112627926013535}
   m_Layer: 0
   m_Name: NikeFlight
   m_TagString: Untagged
@@ -7333,8 +7327,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4955889135463222152
-MeshCollider:
+--- !u!135 &4564112627926013535
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7343,10 +7337,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 21042154218756434, guid: f2c1982b19bb36a4ba320bd2445b79f0, type: 3}
+  serializedVersion: 2
+  m_Radius: 3.3507586
+  m_Center: {x: 0.0073591466, y: -0.00042915344, z: 0.000017046916}
 --- !u!1 &6911468758595016422
 GameObject:
   m_ObjectHideFlags: 0
@@ -9346,6 +9339,7 @@ GameObject:
   - component: {fileID: 4568013457247486644}
   - component: {fileID: 6343165016447532759}
   - component: {fileID: 6912109115989327683}
+  - component: {fileID: 6218921609112626350}
   m_Layer: 0
   m_Name: 36ZoomPegasus
   m_TagString: Untagged
@@ -9418,6 +9412,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6218921609112626350
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8671869563689906029}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.21687281, y: 0.27439404, z: 0.60939425}
+  m_Center: {x: -0.00020710754, y: 0.000009611249, z: -0.00010286273}
 --- !u!1 &8728135820353777130
 GameObject:
   m_ObjectHideFlags: 0
@@ -9429,7 +9436,7 @@ GameObject:
   - component: {fileID: 1974326086735476390}
   - component: {fileID: 4772135375196194851}
   - component: {fileID: 7231763031121273698}
-  - component: {fileID: 5073374868081132529}
+  - component: {fileID: 8609131003050473081}
   m_Layer: 0
   m_Name: NikeParis
   m_TagString: Untagged
@@ -9503,8 +9510,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5073374868081132529
-MeshCollider:
+--- !u!135 &8609131003050473081
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9513,10 +9520,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5290443891780646932, guid: 97c94cbe86ade3d40a85c1ff9271ca99, type: 3}
+  serializedVersion: 2
+  m_Radius: 0.010990471
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8734831538972233862
 GameObject:
   m_ObjectHideFlags: 0
@@ -9956,8 +9962,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2717460398973922518}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1280508344621345015
-MeshCollider:
+--- !u!65 &4131091231916850980
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9966,10 +9972,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3966875149087513853, guid: b3fd338e43ac83349b140ce6a873534f, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 4.9197016, y: 1.7990025, z: 2.5796144}
+  m_Center: {x: 0.62505054, y: -0.000007387648, z: -0.29619902}
 --- !u!4 &2467095910072798013 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b3fd338e43ac83349b140ce6a873534f,
